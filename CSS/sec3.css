@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent3 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #e4dede;
+}
+
+.parent3 .mainTitle {
+    width: 550px;
+    height: 100px;
+    position: absolute;
+    top: 60px;
+    left: 405px;
+}
+
+.parent3 .title2 {
+    color: #2a3282;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.parent3 .line2 {
+    background-color: #000;
+    width: 90px;
+    height: 5px;
+    position: absolute;
+    top: 55px;
+    left: 230px;
+}
+
+.coachs-container {
+    top: 58%;
+    left: 50%;
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* z-index: 100; */
+    box-sizing: border-box;
+    /* background-color: rgb(2, 41, 59); */
+}
+
+.coaches-details {
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 180px;
+    height: 180px;
+    margin-top: 35px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+}
+
+.coach-img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+.coaches-details .caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 0.7s;
+    text-align: center;
+    opacity: 0;
+    transition: 1s;
+    visibility: hidden;
+
+}
+
+.coaches-details .caption .content {
+    position: relative;
+    top: 72px;
+
+}
+
+
+
+.coaches-details .caption .coach-name {
+    color: #2a3282;
+    text-transform: uppercase;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 1s;
+    transition-delay: 0;
+    position: absolute;
+    top: 400px;
+    left: 52px;
+}
+
+.coaches-details .caption .coach-realname {
+    opacity: 0;
+    visibility: hidden;
+    transition: top 1s;
+    transition-delay: 0.5s;
+    position: absolute;
+    font-weight: bold;
+    top: 400px;
+    left: 40px;
+}
+
+.coaches-details .caption .icon-edit {
+    /* background-color: rgba(30, 144, 255, 0.5); */
+    opacity: 0;
+    visibility: hidden;
+    transition: top 1s;
+    transition-delay: 1s;
+    position: absolute;
+    height: 20px;
+    top: 400px;
+    left: 65px;
+    margin-left: 20px;
+
+}
+
+.img-icon {
+    width: 22px;
+    height: 22px;
+}
+
+.coaches-details .caption .icon-search {
+    /* background-color: rgba(30, 144, 255, 0.5); */
+    opacity: 0;
+    visibility: hidden;
+    transition: top 1s;
+    transition-delay: 1s;
+    position: absolute;
+    height: 20px;
+    top: 400px;
+    left: 55px;
+}
+
+.coaches-details:hover .caption {
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.coaches-details:hover .coach-name {
+    visibility: visible;
+    opacity: 1;
+    top: -20px;
+}
+
+.coaches-details:hover .coach-realname {
+    visibility: visible;
+    opacity: 1;
+    top: 10px;
+}
+
+.coaches-details:hover .icon-edit {
+    visibility: visible;
+    opacity: 1;
+    top: 40px;
+}
+
+.coaches-details:hover .icon-search {
+    visibility: visible;
+    opacity: 1;
+    top: 40px;
+}
+
+
+.info2 {
+    margin-left: 50px;
+}
+
+.info2 .caption .coach-realname {
+    position: absolute;
+    left: 54px;
+}
+
+.info3 .caption .coach-realname {
+    position: absolute;
+    left: 65px;
+}
+
+.info4 .caption .coach-realname {
+    position: absolute;
+    left: 60px;
+}
+
+.info5 .caption .coach-realname {
+    position: absolute;
+    left: 56px;
+}
+
+
+.info6 .caption .coach-realname {
+    position: absolute;
+    left: 63px;
+}

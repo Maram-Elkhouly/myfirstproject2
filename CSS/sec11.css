@@ -1,0 +1,57 @@
+.parent11 {
+    height: 330px;
+    width: 100%;
+    position: relative;
+    background-color: #999494;
+}
+
+.footerimg {
+    width: 280px;
+    height: 180px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.contactus {
+    margin-bottom: 15px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.contactus a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    margin: 2px;
+    border-radius: 50%;
+}
+
+.contactus a i {
+    font-size: 30px;
+    color: #000;
+    opacity: 0.9;
+}
+
+.contactus a:hover {
+    background-color: #2a3282;
+    transition: 0.5s;
+}
+
+.last-container {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    width: 100%;
+    height: 330px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* background-color: blue; */
+}
+
+.last-details {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

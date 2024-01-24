@@ -1,0 +1,125 @@
+.parent7 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.parent7 .mainTitle {
+    width: 550px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 405px;
+    /* background-color: aqua; */
+}
+
+.parent7 .line2 {
+    width: 200px;
+    position: absolute;
+    left: 170px;
+}
+
+.parent7 .container-prices {
+    top: 50%;
+    left: 50%;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 500;
+    box-sizing: border-box;
+    /* background-color: #f60000; */
+}
+
+
+.parent7 .Prices-change {
+    display: inline-block;
+    width: 243px;
+    height: 306px;
+
+    margin-top: 130px;
+    margin-right: 60px;
+    margin-left: 60px;
+
+    border: 3px solid #2a3282;
+    padding: 20px;
+    position: relative;
+}
+
+
+.no11 {
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.Prices-change:hover .no11 {
+    color: #c01818;
+}
+
+.btn11 {
+    width: 130px;
+    height: 35px;
+    background: #424996;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 17px;
+
+}
+
+.circle {
+    background: #424996;
+    border-radius: 50%;
+    width: 95px;
+    height: 95px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 7px;
+}
+
+.sign {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.month {
+    color: #fff;
+}
+
+.det {
+    font-size: 17px;
+    color: #000;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+
+
+.Prices-change:after {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+}
+
+.Prices-change:hover:after {
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    z-index: -1;
+}
+
+.Prices-change:hover .sign {
+    color: #c01818;
+    transition: color .7s;
+}
+
+.Prices-change:hover .month {
+    color: #c01818;
+    transition: color .7s;
+}
